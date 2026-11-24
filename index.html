@@ -5,12 +5,12 @@
 body{font:17px system-ui;margin:48px auto;padding:0 24px;max-width:840px;background:#f5f3ef;color:#202823}h1{font-size:36px}button{padding:12px 20px;border-radius:9px;border:1px solid #8b9d91;margin:5px;font:inherit;cursor:pointer}button:disabled{opacity:.45;cursor:default}#start{background:#244d3b;color:white}section{background:white;padding:24px;border-radius:14px;margin:20px 0}small{display:block;color:#5b635e;line-height:1.5}pre{white-space:pre-wrap;max-height:260px;overflow:auto;font-size:13px}audio{width:100%}#status{font-weight:600}label{display:block;margin:16px 0}
 </style>
 <h1>MEG voice pilot</h1><p>GPT-Live · Gleam · Luna backend</p>
-<section><small>Local prototype. Audio goes to OpenAI during a live session. Separate audio tracks and event logs are saved on this computer. No physical TTL output or calibrated MEG timing.</small>
+<!-- <section><small>Local prototype. Audio goes to OpenAI during a live session. Separate audio tracks and event logs are saved on this computer. No physical TTL output or calibrated MEG timing.</small> -->
 <label><input type="checkbox" id="consent"> I am ready to record a test conversation.</label>
 <button id="start">Start conversation</button><button id="stop" disabled>Stop & save</button>
 <button id="marker" disabled>Simulate marker 7</button><button id="backup" disabled>Download event backup</button>
 <p id="status" role="status">Ready</p><small id="location"></small>
-<audio id="audio" controls autoplay></audio><small>Use headphones for desktop testing. If playback is blocked, press Play above. Use only lab-approved audio equipment in the MEG room.</small></section>
+<!-- <audio id="audio" controls autoplay></audio><small>Use headphones for desktop testing. If playback is blocked, press Play above. Use only lab-approved audio equipment in the MEG room.</small></section> -->
 <section><h2>Conversation</h2><div id="transcript"></div></section>
 <section><h2>Event log</h2><pre id="log"></pre></section>
 <script src="/app.js"></script></html>
